@@ -1,0 +1,50 @@
+header {
+  max-width: 100%;
+  background-color: rgb(44, 44, 44);
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+div {
+  display: flex;
+  width: 960px;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+}
+
+header img {
+  width: 200px;
+  height: 70px;
+  
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: auto 20px;
+  padding: 20px;
+  color: rgb(129, 129, 129);
+}
+
+main {
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/*
+main :nth-child(1) {
+  width: 960px;
+  height: 450px;
+  margin-bottom: 30px;
+}
+*/
